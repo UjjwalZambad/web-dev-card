@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 400px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            box-shadow: 1px 5px 10px rgb(225, 210, 210);
+            border-radius: 10px
+        }
+
+        .image{
+            width:100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .heading{
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .line{
+            width: 80%;
+            border:1px solid grey;
+            margin-bottom: 10px;
+        }
+
+        .paragraph{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .Current-price{
+            color: blue;
+        }
+
+        .Original-price{
+            color:grey;
+        }
+
+        .Discount{
+            color:aliceblue;
+            background-color: rgb(18, 185, 138);
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <img
+              class="image"
+              src="love_babbar.jpg"
+              alt="Web Development Bootcamp"
+            />
+        <h1 class="heading">Web Development Master Course @dot Batch</h1>
+        <div class="line"></div>
+        <p class="paragraph">
+            <span class="Current-price">₹4500</span>
+            <del class="Original-price">₹6999</del>
+            <span class="Discount">42% off</span>
+        </p>
+    </div>
+</body>
+</html>
